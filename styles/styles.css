@@ -10,3 +10,10 @@
 .social-links .link:active {
     color: red;
 }
+.social-links {
+    display: flex;
+}
+
+.li:not(:last-child) {
+    margin-right: 50px;
+}
