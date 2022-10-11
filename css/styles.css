@@ -425,6 +425,7 @@ img {
 .client-list {
   display: flex;
   list-style: none;
+  gap: 30px;
 }
 
 .icon-client {
@@ -432,6 +433,13 @@ img {
 
   width: 170px;
   height: 92px;
+
+  outline: 1px solid tomato;
+}
+.icon-link {
+  width: 106px;
+  height: 60px;
+  outline: 1px solid blue;
 }
 
 /* ----------------------------------------Portfolio.html---------------------------------------- */
@@ -489,4 +497,34 @@ img {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--text-color-secondary);
+}
+
+.qwe {
+  display: block;
+  margin-bottom: 50px;
+
+  width: 270px;
+  height: 120px;
+  outline: 1px solid pink;
+}
+
+.asd {
+  display: block;
+  max-width: 170px;
+  max-height: 92px;
+  outline: 1px solid blue;
+}
+
+.iconadvantage {
+  /* width: 70px;
+  height: 70px; */
+  padding: 25px 100px;
+  outline: 1px solid blue;
+}
+
+.iconclient {
+  /* width: 106px;
+  height: 60px; */
+  padding: 16px 32px;
+  outline: 1px solid blue;
 }
