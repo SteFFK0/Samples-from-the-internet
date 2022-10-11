@@ -217,11 +217,17 @@ img {
 
 /* ----------------------------------------Футер---------------------------------------- */
 .footer-style {
+  display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
 
   background: var(--background-color-secondary);
   border: 1px solid #ececec;
+}
+
+.footer-flex {
+  display: flex;
+  gap: 70px;
 }
 
 .logo-footer {
@@ -267,6 +273,22 @@ img {
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
+}
+
+.join-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.join-list {
+  display: flex;
+  gap: 10px;
+  list-style: none;
 }
 
 /* ----------------------------------------Прихований контент---------------------------------------- */
@@ -527,4 +549,7 @@ img {
   height: 60px; */
   padding: 16px 32px;
   outline: 1px solid blue;
+}
+img {
+  outline: 1px solid green;
 }
