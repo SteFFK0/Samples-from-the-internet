@@ -27,6 +27,7 @@ ul,
 ol {
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 img {
@@ -43,6 +44,11 @@ img {
   width: 1200px;
 }
 
+svg {
+  display: block;
+  outline: 1px solid green;
+}
+
 img {
   display: block;
   outline: 1px solid red;
@@ -54,4 +60,16 @@ img {
 
 .secondary {
   background-color: tomato;
+  text-align: center;
+}
+.test {
+  background-color: yellow;
+}
+
+.advantage-list {
+  display: flex;
+}
+
+.client-list {
+  display: flex;
 }
