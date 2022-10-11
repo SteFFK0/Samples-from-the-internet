@@ -54,12 +54,17 @@ img {
   outline: 1px solid red;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .primary {
   background-color: teal;
 }
 
 .secondary {
-  background-color: tomato;
+  background-color: #ffffff;
   text-align: center;
 }
 .test {
@@ -72,4 +77,45 @@ img {
 
 .client-list {
   display: flex;
+
+  gap: 30px;
+}
+
+.title {
+  margin-bottom: 50px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.client-list-item {
+  display: flex;
+  justify-content: center;
+  outline: 1px solid blue;
+  width: calc((100% - 150px) / 6);
+}
+
+.client-list-link {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.icon-client {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.icon-client > use {
+  display: flex;
+  justify-content: center;
 }
